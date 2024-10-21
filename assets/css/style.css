@@ -1018,6 +1018,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00a9a3;}
     display: inline-block;
     font-size: large;
 }
+.dropdown:hover {
+    color: #00a9a3;
+}
 .dropdown-content {
     display: none;
     position: absolute;
