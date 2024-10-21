@@ -1014,7 +1014,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00a9a3;}
     font-size: 16px;
     border: none;
     outline: none;
-    color: white;
+    color: rgb(18, 14, 14);
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
