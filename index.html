@@ -565,25 +565,68 @@
 				                <a class="navbar-brand" href="index.html">list<span>race</span></a>
 				            </div><!--/.navbar-header-->
 			           	</div>
-			           	<div class="col-sm-9">
-			           		<ul class="footer-menu-item">
-			                    <li class="scroll"><a href="#works">Info</a></li>
-			                    <li class="scroll"><a href="#explore">Opleidingen</a></li>
-			                    <li class="scroll"><a href="#blog">Ontdek</a></li>
-			                    <li class="scroll"><a href="#statistics">statistieken</a></li>
-			                    <li class=" scroll"><a href="#contact">Contact</a></li>
-								<div class="dropdown">
-									<button class="dropbtn">Dropdown
-									  <i class="fa fa-caret-down"></i>
-									</button>
-									<div class="dropdown-content">
-									  <a href="#">Link 1</a>
-									  <a href="#">Link 2</a>
-									  <a href="#">Link 3</a>
-									</div>
-								  </div>
-			                </ul><!--/.nav -->
-			           	</div>
+						   <!DOCTYPE html>
+						   <html>
+						   <head>
+							   <title>Footer Navigation</title>
+							   <style>
+								   .footer-menu-item {
+									   list-style-type: none;
+									   padding: 0;
+								   }
+								   .footer-menu-item li {
+									   display: inline-block;
+									   margin-right: 15px;
+								   }
+								   .dropdown {
+									   position: relative;
+									   display: inline-block;
+								   }
+								   .dropdown-content {
+									   display: none;
+									   position: absolute;
+									   background-color: #f9f9f9;
+									   min-width: 160px;
+									   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+									   z-index: 1;
+								   }
+								   .dropdown-content a {
+									   color: black;
+									   padding: 12px 16px;
+									   text-decoration: none;
+									   display: block;
+								   }
+								   .dropdown-content a:hover {
+									   background-color: #f1f1f1;
+								   }
+								   .dropdown:hover .dropdown-content {
+									   display: block;
+								   }
+							   </style>
+						   </head>
+						   <body>
+						   
+							   <div class="col-sm-9">
+								   <ul class="footer-menu-item">
+									   <li class="scroll"><a href="#works">Info</a></li>
+									   <li class="scroll"><a href="#explore">Opleidingen</a></li>
+									   <li class="scroll"><a href="#blog">Ontdek</a></li>
+									   <li class="scroll"><a href="#statistics">Statistieken</a></li>
+									   <li class="scroll"><a href="#contact">Contact</a></li>
+									   <li class="dropdown">
+										   <button class="dropbtn">Dropdown <i class="fa fa-caret-down"></i></button>
+										   <div class="dropdown-content">
+											   <a href="#">Link 1</a>
+											   <a href="#">Link 2</a>
+											   <a href="#">Link 3</a>
+										   </div>
+									   </li>
+								   </ul><!--/.nav -->
+							   </div>
+						   
+						   </body>
+						   </html>
+						   
 		           </div>
 				</div>
 				<div class="hm-footer-copyright">

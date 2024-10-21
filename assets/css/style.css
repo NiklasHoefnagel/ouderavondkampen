@@ -1004,57 +1004,39 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00a9a3;}
 #footer-social span {margin-right:15px;margin-left: 0;color: #a5adb3;}
 #footer-social span:hover{color: #00a9a3;}
 #footer-social a:hover {background:#00a9a3;color: #fff;}
+
+.footer-menu-item {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-menu-item li {
+    display: inline-block;
+    margin-right: 15px;
+}
 .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: rgb(18, 14, 14);
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
-  
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
+    position: relative;
+    display: inline-block;
+    font-size: large;
+}
+.dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #00a9a3;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
+}
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+}
+.dropdown-content a:hover {
+    background-color: #00a9a3;
+}
+.dropdown:hover .dropdown-content {
+    
 
 /*===============================
     Scroll Top
