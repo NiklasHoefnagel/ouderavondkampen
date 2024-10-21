@@ -1015,6 +1015,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00a9a3;}
 .dropdown {
     position: relative;
     display: inline-block;
+    margin-left: 10px;
 }
 .dropdown:hover {
     color: #00a9a3;
