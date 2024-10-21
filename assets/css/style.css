@@ -1011,12 +1011,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00a9a3;}
 }
 .footer-menu-item li {
     display: inline-block;
-    margin-right: 15px;
 }
 .dropdown {
     position: relative;
     display: inline-block;
-    font-size: 100px;
 }
 .dropdown:hover {
     color: #00a9a3;
